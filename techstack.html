@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Stack</title>
+    <link rel="stylesheet" href="./techstack.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Portfolio</h1>
+            <ul>
+                <li><a href="./portfolio.html" >About Me</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href="./experience.html">Experience</a></li>
+                <li><a href="./techstack.html" class="active">Tech Stack</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact_form.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1><u>Tech Suite</u></h1>
+    <section class="tech-stack-section">
+        
+        <div class="tech-stack-item" data-tech="languages">
+            <h2>Languages</h2>
+        </div>
+        <div class="tech-stack-item" data-tech="frameworks">
+            <h2>Frameworks & Libraries</h2>
+        </div>
+        <div class="tech-stack-item" data-tech="tools">
+            <h2>Tools & Platforms</h2>
+        </div>
+        <div class="tech-stack-item" data-tech="databases">
+            <h2>Databases</h2>
+        </div>
+    </section>
+
+    <section class="tech-stack-details hidden" id="languages">
+        <div class="tech-item">HTML5</div>
+        <div class="tech-item">CSS3</div>
+        <div class="tech-item">JavaScript</div>
+        <div class="tech-item">Java</div>
+        <div class="tech-item">Python</div>
+    </section>
+
+    <section class="tech-stack-details hidden" id="frameworks">
+        <div class="tech-item">React.js</div>
+        <div class="tech-item">Node.js</div>
+        <div class="tech-item">Express.js</div>
+        <div class="tech-item">TensorFlow</div>
+        <!-- Add your frameworks details here -->
+    </section>
+
+    <section class="tech-stack-details hidden" id="tools">
+        <div class="tech-item">Docker</div>
+        <div class="tech-item">Kubernetes</div>
+        <div class="tech-item">Git</div>
+        <!-- Add your tools & platforms details here -->
+    </section>
+
+    <section class="tech-stack-details hidden" id="databases">
+        <div class="tech-item">MongoDB</div>
+        <div class="tech-item">MySQL</div>
+        <div class="tech-item">PostgreSQL</div>
+        <!-- Add your databases details here -->
+    </section>
+</main>
+
+    <script src="./techstack.js"></script>
+</body>
+</html>
